@@ -9,7 +9,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  environment:
+    sdk: '>=2.10.0 <3.0.0'
 flutter:
   uses-material-design: true
   assets:
@@ -19,3 +20,4 @@ flutter:
       - family: Nunito
         fonts:
           - asset: assets/Nunito.ttf
+
